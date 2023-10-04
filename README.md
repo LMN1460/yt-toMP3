@@ -1,2 +1,13 @@
 # yt-toMP3
-Simple wrapper setup to download audio from Youtube videos. Essentially just yt-dlp with a funny hat.
+A very simple wrapper program to download audio from Youtube videos. The script will prompt you for a Youtube URL, then call the [yt-dlp](https://github.com/yt-dlp/yt-dlp) downloader with the arguments needed to download that video as a MP3 file.
+
+## Installation and Setup
+This repository only provides the script I wrote; you'll need other programs as well. Save each component to the same folder, as this is where the script looks for its dependencies.
+
+* `yt-dlp`: This is the full-featured downloader that yt-toMP3 uses to download Youtube audio. yt-toMP3 only uses one command out of hundreds; feel free to read the documentation and play around with all the other features! Download from https://github.com/yt-dlp/yt-dlp#release-files.
+
+* `ffmpeg` and `ffprobe`: These are MP3 conversion libraries for yt-dlp. Download from https://ffbinaries.com/downloads.
+
+* `yt-toMP3`: The script itself. Download from https://github.com/LMN1460/yt-toMP3.
+
+* **Runtime components**: yt-dlp for Windows depends on some runtime components that may not come with your setup. If you receive any errors along the lines of "msvcp100.dll was not found", go to https://www.microsoft.com/en-us/download/details.aspx?id=26999 and download the applicable files. If running a 64-bit version of Windows you'll need both `vcredist_x64` and `vcredist_x86`; if using 32-bit version stick with just the latter.
