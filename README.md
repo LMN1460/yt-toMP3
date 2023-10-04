@@ -2,7 +2,7 @@
 A very simple wrapper program to download audio from Youtube videos. The script will prompt you for a Youtube URL, then call the [yt-dlp](https://github.com/yt-dlp/yt-dlp) downloader with the arguments needed to download that video as a MP3 file.
 
 ## Installation and Setup
-This repository only provides the script I wrote; you'll need other programs as well. All files must be saved to the same directory in order for the script to work.
+This repository only provides the script I wrote; you'll need other components as well. All files must be saved to the same directory in order for the script to work.
 
 * `yt-dlp.exe`: This is the full-featured downloader that yt-toMP3 uses to download Youtube audio. yt-toMP3 only uses one command out of hundreds; feel free to read the documentation and play around with all the other features! Download from https://github.com/yt-dlp/yt-dlp#release-files.
 
