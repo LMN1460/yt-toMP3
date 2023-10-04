@@ -1,7 +1,3 @@
-:: [For future reference]
-:: %~dp0% prints current directory
-:: %0%    prints full path to current file
-
 @echo off
 
 :: prompt for URL input
